@@ -11,11 +11,15 @@ function makeRows(rows, cols) {
 makeRows(16, 16);
 
 // restart //
-const clearBtn = document.querySelector('button');
-clearBtn.addEventListener('click', () => {
-  grid(0)
-  container.innerHTML = ''
-})
+const resetBtn = document.querySelector('button');
+resetBtn.addEventListener("click", clear);
+function clear() {
+  const allDivs = document.querySelectorAll(".grid-item");
+  allDivs.forEach((allDivs) => {
+    allDivs.style.backgroundColor = "rgba(255, 255, 255)";
+  });
+}
+
 
 // drawing //
 const grid = document.getElementById("container");
