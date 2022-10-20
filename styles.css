@@ -11,6 +11,14 @@ body {
     background-size: 50px 50px;
 }
 
+#logo {
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    z-index: 996;
+    max-width: 3.5em;
+}
+
 .title {
     display: flex;
     align-items: center;
