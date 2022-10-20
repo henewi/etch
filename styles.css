@@ -17,6 +17,11 @@ body {
     top: 7px;
     z-index: 996;
     max-width: 3.5em;
+    transition: all .2s ease-in-out;
+}
+
+#logo:hover {
+    transform: scale(1.03);
 }
 
 .title {
@@ -34,8 +39,8 @@ body {
     top: 0;
     margin: 0;
     padding-right: 25px;
-    font-size: 60px;
-    font-weight: 300;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 #titletext {
@@ -43,6 +48,7 @@ body {
     padding-top: 0.3em;
     font-size: 1.8em;
     font-weight: 600;
+    text-shadow: 0 0 7px #48ff00d0;
 }
 
 .menu {
