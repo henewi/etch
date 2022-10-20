@@ -1,0 +1,18 @@
+@font-face {
+    font-family: roboti;
+    src: url();
+}
+
+body {
+    background-color: rgb(36, 36, 36);
+}
+
+#title {
+    color: white;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1em;
+    text-shadow: 3px;
+}
