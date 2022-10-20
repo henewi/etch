@@ -22,18 +22,6 @@ body {
     justify-content: center;
 }
 
-#clear {
-    margin: 1em;
-    background-color: rgb(65, 65, 65);
-    color: white;
-}
-
-#save {
-    margin: 1em;
-    background-color: rgb(65, 65, 65);
-    color: white;
-}
-
 .button {
   align-items: center;
   background-color: #fff;
@@ -49,7 +37,6 @@ body {
   font-weight: 700;
   justify-content: center;
   line-height: 1;
-  margin: 0;
   outline: none;
   padding: 1rem 1.2rem;
   text-align: center;
@@ -60,11 +47,11 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  max-width: 76px;
+  max-width: 82px;
   max-height: 40px;
-  margin: 10px;
+  margin: 20px;
 }
 
 .button:hover {
-  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+  box-shadow: #66ff00 0 0 0 3px, transparent 0 0 0 0;
 }
