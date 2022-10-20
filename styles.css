@@ -96,8 +96,43 @@ body {
   margin-left: 15px;
 }
 
+.button2 { 
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 12px;
+        box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, 0.13) 0 6px 20px;
+        box-sizing: border-box;
+        color: #121212;
+        cursor: pointer;
+        display: inline-flex;
+        flex: 1 1 auto;
+        font-family: robo;
+        font-size: 1rem;
+        font-weight: 700;
+        justify-content: center;
+        line-height: 1;
+        outline: none;
+        padding: 1rem 1.2rem;
+        text-align: center;
+        text-decoration: none;
+        transition: box-shadow .2s,-webkit-box-shadow .2s;
+        white-space: nowrap;
+        border: 0;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        max-width: 140px;
+        max-height: 40px;
+        margin-top: 20px;
+        margin-left: 15px;
+      }
+
 .button:hover {
   box-shadow: #353535 0 0 0 2px, transparent 0 0 0 0;
+}
+
+.button2:hover {
+    box-shadow: #353535 0 0 0 2px, transparent 0 0 0 0;
 }
 
 /* Grid section */ 
@@ -143,6 +178,7 @@ div {
 .grid-item:hover {
     background-color: black;
 }
-.grid-item:active {
-    background: red;
+
+#color {
+    display: none;
 }
