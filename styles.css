@@ -1,7 +1,11 @@
+/* Fonts section */
+
 @font-face {
     font-family: robo;
     src: url(font/PressStart2P.ttf);
 }
+
+/* Background section */
 
 body {
     background-color: rgb(36, 36, 36);
@@ -10,6 +14,8 @@ body {
     background-image: radial-gradient(#48ff00 1px, transparent 4px);
     background-size: 50px 50px;
 }
+
+/* Top Bar */
 
 #logo {
     position: absolute;
@@ -93,3 +99,5 @@ body {
 .button:hover {
   box-shadow: #353535 0 0 0 2px, transparent 0 0 0 0;
 }
+
+/* Grid section */ 
