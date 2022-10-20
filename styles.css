@@ -5,26 +5,29 @@
 
 body {
     background-color: rgb(36, 36, 36);
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(#48ff00 1px, transparent 4px);
+    background-size: 50px 50px;
 }
 
-#title {
-    color: white;
+.title {
     display: flex;
-    margin: auto;
+    align-items: center;
     justify-content: center;
-    text-align: center;
-    padding-top: 1em;
-    font-size: 1.5em;
+    padding-top: 20px;
+    color: white;
 }
 
 .menu {
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 
 .button {
   align-items: center;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border-radius: 12px;
   box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
   box-sizing: border-box;
