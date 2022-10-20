@@ -90,7 +90,7 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  max-width: 140px;
+  max-width: 180px;
   max-height: 40px;
   margin-top: 20px;
   margin-left: 15px;
@@ -121,7 +121,7 @@ body {
         user-select: none;
         -webkit-user-select: none;
         touch-action: manipulation;
-        max-width: 140px;
+        max-width: 180px;
         max-height: 40px;
         margin-top: 20px;
         margin-left: 15px;
@@ -134,6 +134,10 @@ body {
 .button2:hover {
     box-shadow: #353535 0 0 0 2px, transparent 0 0 0 0;
 }
+
+a:link{
+    text-decoration: none!important;
+  }
 
 /* Grid section */ 
 
