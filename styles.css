@@ -24,8 +24,12 @@ body {
 
 #clear {
     margin: 1em;
+    background-color: rgb(65, 65, 65);
+    color: white;
 }
 
 #save {
     margin: 1em;
+    background-color: rgb(65, 65, 65);
+    color: white;
 }
