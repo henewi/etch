@@ -1,1 +1,11 @@
-let n=10;container.innerHTML=(d='<div class="')+'grd" style="width:'+n*14+'px">'+[...Array(n*n)].reduce((a,b,i)=>a+d+'cell">'+i.toString(16)+(e='</div>'),'')+e;
+const container = document.getElementById("container");
+function makeRows(rows, cols) {
+  container.style.setProperty('--grid-rows', rows);
+  container.style.setProperty('--grid-cols', cols);
+  for (c = 0; c < (rows * cols); c++) {
+    let cell = document.createElement("div");
+    cell.innerText = (c + 1);
+    container.appendChild(cell).className = "grid-item";
+  };
+};
+makeRows(16, 16);
